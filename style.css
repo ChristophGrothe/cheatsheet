@@ -1,0 +1,110 @@
+/*Content
+1. Global
+2. Color/Gold
+3. Text above table
+4. Table*/
+
+/*Global*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+/*c=color; Gold in five different versions*/
+
+.c {
+    color:hsl(51, 100%, 50%);
+}
+
+.c1 {
+    background-color: rgb(255,215,0);
+}
+
+.c2 {
+    background-color: #FFD700;
+}
+
+.c3 {
+    background-color: hsl(51, 100%, 50%);
+}
+
+.c11 {
+    background-color:rgb(255,215,0,0.5);
+}
+
+.c33 {
+    background-color: hsl(51,100%,50%,0.5);
+}
+
+/*Text above the table*/
+
+h1,h2,thead {
+    color: white;
+}
+
+h1,h2 {
+    text-align:center;
+    position: relative;
+    top: 30px;
+}
+
+.location {
+    width: 20px;
+}
+
+/***Table***/
+/*Position*/
+
+table {
+    margin: 40px auto 0px; 
+    position: relative;
+    top: 20px;
+}
+
+/*text within table+th*/
+
+th,td {
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+/**The three columns**/
+/*Headings in the first column*/
+
+td:first-child {
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    border: 3px solid white;
+}
+
+/*<code> (second column)*/
+
+td:nth-child(2) {
+    font-style: monospace;
+    font-size: 16px;
+}
+
+.code {
+    background-color: white;
+}
+
+/*text within third column*/
+
+td:nth-child(3) {
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+
+
+
+
