@@ -78,7 +78,6 @@ th,td {
 /*Headings in the first column*/
 
 td:first-child {
-    color: white;
     font-weight: bold;
 }
 
@@ -103,6 +102,14 @@ td:nth-child(3) {
     font-size: 15px;
     padding: 10px 15px;
 }
+
+/**Two dark rows**/
+/*leg=legibility*/
+
+.leg {
+    color: white;
+}
+
 
 
 
